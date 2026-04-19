@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+/* ─── DGA Token Definitions ─────────────────────────────────────────── */
+:root {
+  /* Primary */
+  --dga-primary-50:  #EBF2FA;
+  --dga-primary-600: #1B5299;
+  --dga-primary-700: #154080;
+  --dga-primary-800: #0F2F5F;
+
+  /* Ink (text, border, surface) */
+  --dga-ink-50:  #F9FAFB;
+  --dga-ink-100: #F2F4F7;
+  --dga-ink-300: #D0D5DD;
+  --dga-ink-500: #667085;
+  --dga-ink-700: #344054;
+  --dga-ink-900: #1D2939;
+
+  /* Semantic */
+  --dga-green-50:   #ECFDF3;
+  --dga-green-600:  #027A48;
+  --dga-green-700:  #025D38;
+  --dga-yellow-50:  #FFFAEB;
+  --dga-yellow-600: #DC6803;
+  --dga-red-50:     #FEF3F2;
+  --dga-red-600:    #D92D20;
+  --dga-red-700:    #B42318;
+  --dga-blue-50:    #EFF8FF;
+  --dga-blue-600:   #026AA2;
+}
+
+/* ─── Tailwind v4 Theme Mapping ─────────────────────────────────────── */
+@theme inline {
+  /* Primary scale */
+  --color-primary-50:  var(--dga-primary-50);
+  --color-primary-600: var(--dga-primary-600);
+  --color-primary-700: var(--dga-primary-700);
+  --color-primary-800: var(--dga-primary-800);
+
+  /* Ink scale */
+  --color-ink-50:  var(--dga-ink-50);
+  --color-ink-100: var(--dga-ink-100);
+  --color-ink-300: var(--dga-ink-300);
+  --color-ink-500: var(--dga-ink-500);
+  --color-ink-700: var(--dga-ink-700);
+  --color-ink-900: var(--dga-ink-900);
+
+  /* Semantic scale */
+  --color-green-50:   var(--dga-green-50);
+  --color-green-600:  var(--dga-green-600);
+  --color-green-700:  var(--dga-green-700);
+  --color-yellow-50:  var(--dga-yellow-50);
+  --color-yellow-600: var(--dga-yellow-600);
+  --color-red-50:     var(--dga-red-50);
+  --color-red-600:    var(--dga-red-600);
+  --color-red-700:    var(--dga-red-700);
+  --color-blue-50:    var(--dga-blue-50);
+  --color-blue-600:   var(--dga-blue-600);
+
+  /* Page container */
+  --width-page: 75rem; /* 1200px */
+
+  /* IBM Plex Sans font stack */
+  --font-sans: var(--font-ibm), var(--font-ibm-ar), 'IBM Plex Sans', system-ui, sans-serif;
+}
+
+/* ─── Base ──────────────────────────────────────────────────────────── */
+body {
+  background-color: var(--dga-ink-50);
+  color: var(--dga-ink-900);
+  -webkit-font-smoothing: antialiased;
+}
+
+[dir="rtl"] * {
+  letter-spacing: 0;
+}

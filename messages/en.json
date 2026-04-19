@@ -1,0 +1,124 @@
+{
+  "nav": {
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "myQuotes": "My Quotes",
+    "myJobs": "My Jobs",
+    "browseQuotes": "Browse Quotes",
+    "jobs": "Jobs"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Create Account",
+    "email": "Email",
+    "password": "Password",
+    "name": "Full Name",
+    "phone": "Phone Number",
+    "role": "I am a",
+    "roleClient": "Client",
+    "roleContractor": "Contractor",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?"
+  },
+  "quotes": {
+    "new": "New Quote Request",
+    "category": "Category",
+    "district": "District",
+    "description": "Description",
+    "photoUrls": "Photo URLs (optional)",
+    "submit": "Submit Request",
+    "respond": "Send Offer",
+    "price": "Your Price (SAR)",
+    "notes": "Notes",
+    "hire": "Hire",
+    "noQuotes": "No quote requests yet.",
+    "openQuotes": "Open Quote Requests",
+    "myRequests": "My Quote Requests",
+    "status": {
+      "OPEN": "Open",
+      "HIRED": "Hired",
+      "CLOSED": "Closed"
+    },
+    "responses": "Offers Received",
+    "noResponses": "No offers yet."
+  },
+  "jobs": {
+    "title": "Jobs",
+    "noJobs": "No jobs yet.",
+    "status": {
+      "ACTIVE": "Active",
+      "COMPLETED": "Completed",
+      "DISPUTED": "Disputed"
+    },
+    "viewDetail": "View Detail"
+  },
+  "milestones": {
+    "UPFRONT": "Upfront Payment",
+    "MID": "Mid Payment",
+    "FINAL": "Final Payment",
+    "status": {
+      "PENDING": "Pending",
+      "SUBMITTED": "Submitted",
+      "APPROVED": "Approved",
+      "REJECTED": "Rejected",
+      "PAID": "Paid"
+    }
+  },
+  "category": {
+    "PLUMBING": "Plumbing",
+    "ELECTRICAL": "Electrical",
+    "PAINTING": "Painting",
+    "TILING": "Tiling",
+    "CARPENTRY": "Carpentry",
+    "HVAC": "HVAC",
+    "GENERAL": "General"
+  },
+  "evidence": {
+    "title": "Evidence",
+    "submit": "Submit Evidence",
+    "photoUrls": "Photo URLs",
+    "notes": "Notes",
+    "checklist": "Checklist",
+    "addItem": "Add item",
+    "noEvidence": "No evidence submitted yet.",
+    "submitted": "Evidence submitted successfully."
+  },
+  "milestone": {
+    "approve": "Approve",
+    "reject": "Reject",
+    "viewEvidence": "View Evidence",
+    "submitEvidence": "Submit Evidence",
+    "approved": "Milestone approved.",
+    "rejected": "Milestone rejected."
+  },
+  "payment": {
+    "payNow": "Pay Now",
+    "paid": "Paid",
+    "pending": "Payment Pending",
+    "status": {
+      "PAID": "Paid",
+      "PENDING": "Awaiting Payment"
+    },
+    "receipt": "Payment ID",
+    "paidAt": "Paid on",
+    "success": "Payment successful!"
+  },
+  "contractor": {
+    "profile": "Contractor Profile",
+    "memberSince": "Member since",
+    "completedJobs": "Completed Jobs",
+    "activeJobs": "Active Jobs",
+    "jobHistory": "Job History",
+    "noHistory": "No completed jobs yet.",
+    "viewProfile": "View Profile"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong.",
+    "sar": "SAR",
+    "by": "By",
+    "save": "Save",
+    "back": "Back"
+  }
+}

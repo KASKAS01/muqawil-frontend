@@ -1,0 +1,124 @@
+{
+  "nav": {
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب",
+    "logout": "تسجيل الخروج",
+    "myQuotes": "طلباتي",
+    "myJobs": "وظائفي",
+    "browseQuotes": "تصفح الطلبات",
+    "jobs": "الوظائف"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "name": "الاسم الكامل",
+    "phone": "رقم الهاتف",
+    "role": "أنا",
+    "roleClient": "عميل",
+    "roleContractor": "مقاول",
+    "noAccount": "ليس لديك حساب؟",
+    "hasAccount": "لديك حساب بالفعل؟"
+  },
+  "quotes": {
+    "new": "طلب عرض سعر جديد",
+    "category": "الفئة",
+    "district": "الحي",
+    "description": "الوصف",
+    "photoUrls": "روابط الصور (اختياري)",
+    "submit": "إرسال الطلب",
+    "respond": "إرسال العرض",
+    "price": "سعرك (ريال)",
+    "notes": "ملاحظات",
+    "hire": "توظيف",
+    "noQuotes": "لا توجد طلبات بعد.",
+    "openQuotes": "طلبات عروض الأسعار",
+    "myRequests": "طلباتي",
+    "status": {
+      "OPEN": "مفتوح",
+      "HIRED": "تم التوظيف",
+      "CLOSED": "مغلق"
+    },
+    "responses": "العروض المستلمة",
+    "noResponses": "لا توجد عروض بعد."
+  },
+  "jobs": {
+    "title": "الوظائف",
+    "noJobs": "لا توجد وظائف بعد.",
+    "status": {
+      "ACTIVE": "نشط",
+      "COMPLETED": "مكتمل",
+      "DISPUTED": "متنازع عليه"
+    },
+    "viewDetail": "عرض التفاصيل"
+  },
+  "milestones": {
+    "UPFRONT": "الدفعة الأولى",
+    "MID": "الدفعة الوسطى",
+    "FINAL": "الدفعة الأخيرة",
+    "status": {
+      "PENDING": "معلق",
+      "SUBMITTED": "مقدم",
+      "APPROVED": "موافق عليه",
+      "REJECTED": "مرفوض",
+      "PAID": "مدفوع"
+    }
+  },
+  "category": {
+    "PLUMBING": "السباكة",
+    "ELECTRICAL": "الكهرباء",
+    "PAINTING": "الدهانات",
+    "TILING": "البلاط",
+    "CARPENTRY": "النجارة",
+    "HVAC": "التكييف",
+    "GENERAL": "عام"
+  },
+  "evidence": {
+    "title": "الأدلة",
+    "submit": "تقديم الأدلة",
+    "photoUrls": "روابط الصور",
+    "notes": "ملاحظات",
+    "checklist": "قائمة التحقق",
+    "addItem": "إضافة عنصر",
+    "noEvidence": "لم يتم تقديم أي دليل بعد.",
+    "submitted": "تم تقديم الأدلة بنجاح."
+  },
+  "milestone": {
+    "approve": "موافقة",
+    "reject": "رفض",
+    "viewEvidence": "عرض الأدلة",
+    "submitEvidence": "تقديم الأدلة",
+    "approved": "تمت الموافقة على المرحلة.",
+    "rejected": "تم رفض المرحلة."
+  },
+  "payment": {
+    "payNow": "ادفع الآن",
+    "paid": "مدفوع",
+    "pending": "في انتظار الدفع",
+    "status": {
+      "PAID": "مدفوع",
+      "PENDING": "في انتظار الدفع"
+    },
+    "receipt": "رقم الدفع",
+    "paidAt": "تم الدفع في",
+    "success": "تم الدفع بنجاح!"
+  },
+  "contractor": {
+    "profile": "ملف المقاول",
+    "memberSince": "عضو منذ",
+    "completedJobs": "الوظائف المكتملة",
+    "activeJobs": "الوظائف النشطة",
+    "jobHistory": "سجل الوظائف",
+    "noHistory": "لا توجد وظائف مكتملة بعد.",
+    "viewProfile": "عرض الملف"
+  },
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ ما.",
+    "sar": "ريال",
+    "by": "بواسطة",
+    "save": "حفظ",
+    "back": "رجوع"
+  }
+}
